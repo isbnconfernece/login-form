@@ -1,0 +1,241 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f3f3f3;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;  
+    background-image: url("bg.jpg");  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    min-height: 100vh;  
+    box-sizing: border-box;
+}  
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#hh {  
+    position: relative;
+    top: 0px;
+    text-align: center;  
+    margin-bottom: 20px;  
+    color: #f2c9a5;  
+    font-size: 32px;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}  
+
+#hh2{
+    position: relative;
+    top: -25px;
+    text-align: center;  
+    margin-bottom: 20px;  
+    color: #f2c9a5;  
+    font-size: 32px;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}
+
+.content-container {
+    position: relative;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 90px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1700px;
+}
+
+.container {  
+    background-color: #00bbf916;  
+    border-radius: 15px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);  
+    padding: 20px;  
+    width: 300px;  
+    flex: 0.3;
+    box-sizing: border-box;
+}  
+
+.container h2 {  
+    color: #a65f23;  
+    margin-bottom: 20px;  
+}  
+
+.location{
+    position: relative;
+    left: 0px;
+    color: #f2c9a5;  
+    width: 300px;
+    background-color: #6d47235d;
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px;
+    background: #68411d73;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .location h2 {
+    color: #f2c9a5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .location img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+  }
+  .location p {
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  .location big {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #a86d00;
+    font-weight: bold;
+  }
+  .location a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .location a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+    color: #fbf4e0;  
+    font-weight: bold;  
+}  
+
+input[type="text"],  
+input[type="email"],  
+input[type="password"],  
+select {  
+    width: 100%;  
+    margin-bottom: 15px;  
+    padding: 10px;  
+    box-sizing: border-box;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+}  
+
+button[type="submit"] {  
+    padding: 15px;  
+    border-radius: 10px;  
+    border: none;  
+    background-color: #695439;  
+    color: white;  
+    cursor: pointer;  
+    width: 100%;  
+    font-size: 16px;  
+}
+
+.image-section {
+    background-color: #ffffff6c;  
+    position: relative;
+    top: -10px;
+    right: 50px;
+    border-radius: 15px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);  
+    padding: 20px;  
+    width: 300px;  
+    text-align: center;
+    flex: 0.3;
+    box-sizing: border-box;
+}
+
+.image-section img {
+    max-width: 100%;  
+    border-radius: 10px;  
+    margin-bottom: 15px;
+}
+
+.image-section p {
+    color: #000000;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #hh {
+        font-size: 28px;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container, .image-section {
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+
+    .image-section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #hh {
+        font-size: 24px;
+    }
+
+    .container, .image-section {
+        width: 100%;
+        max-width: 95%;
+    }
+
+    button[type="submit"] {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .image-section p {
+        font-size: 14px;
+    }
+}
+
+#form2{
+    position: relative;
+    top: 0px;
+    left: 250px;
+    text-align: center;  
+    margin-bottom: 20px;  
+    color: #f2c9a5;  
+    font-size: 52px;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

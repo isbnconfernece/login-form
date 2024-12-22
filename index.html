@@ -1,0 +1,90 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Conference Registration Form</title>  
+    <link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+    <div class="wrapper">
+        <h1 id="hh">National Conference on Researches in Science and Technology (NCRST - 25)</h2>
+        <h2 id="hh2">Conference Registration Form</h1>
+
+
+         <!-- Flex box -->
+        <div class="content-container">
+            <div class="location">
+                <h2><u>Indian School Of Business Management and Administration</u></h2>
+                <img src="isbm.jpeg" alt="Indian School Of Business Management and Administration" width="270px">
+                <p>
+                  <strong>Address:</strong> ISBM, Office No. 311, 3rd Floor Metro Station New Delhi House, Near, Barakhamba Rd, Connaught Place, Delhi, 110001<br>
+                  <strong>Location:</strong> Barakhamba, New Delhi, Delhi
+                </p>
+                <big>About the Conference:</big>
+                <p>
+                  Visit this site for further details about the conference :-<br>
+                  <a href="https://www.nationalconference.in/event/about-conference.php?id=3106973" target="_blank">NCRST - 25 click-here</a>
+                </p>
+              </div>
+            <!-- Form Section -->
+            <div class="container">  
+                <h2>Register Here</h2>  
+                    <form action="https://script.google.com/macros/s/AKfycbyaTTexPJVT7Z2Psd7O8CjNH2voDoQtdaLKdEt2s2OQMZ2czbH_c450Ws9x3TvZe1UjCQ/exec" method="POST">
+                    
+                    <label for="fname"><b>First Name</b></label>  
+                    <input type="text" id="fname" name="firstname" placeholder="Enter First Name" required>  
+
+                    <label for="lname"><b>Last Name</b></label>  
+                    <input type="text" id="lname" name="lastname" placeholder="Enter Last Name" required>  
+
+                    <label for="email"><b>Email</b></label>  
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>  
+
+                    <label for="cname"><b>College Name</b></label>  
+                    <input type="text" id="cname" name="Collegename" placeholder="Enter Your Collage Name" required>  
+
+                    <label for="psw"><b>Course</b></label>  
+                    <select id="gender" name="course" required> 
+                        <option value="B.tech">B.tech</option> 
+                        <option value="B.C.A.">B.C.A.</option> 
+                        <option value="B.E.">B.E.</option> 
+                        <option value="M.tech">M.tech</option> 
+                        <option value="M.C.A">M.C.A.</option> 
+                        <option value="M.E.">M.E.</option> 
+                    </select> 
+
+                    <label for="psw-repeat"><b>Your City</b></label>  
+                    <input type="text" id="psw-repeat" name="city" placeholder="City Name" required>  
+
+                    <label for="mobile"><b>Contact</b></label>  
+                    <input type="text" id="mobile" name="mobile" maxlength="10" placeholder="Enter Contact Number" required>  
+
+                    <label for="gender"><b>Gender</b></label>  
+                    <select id="gender" name="gender" required>  
+                        <option value="male">Male</option>  
+                        <option value="female">Female</option>  
+                        <option value="other">Other</option>  
+                    </select>  
+
+                    <button type="submit">Register</button>  
+                </form>  
+            </div>
+
+            <!-- Image and Text Section -->
+            <div class="image-section">
+                <img src="1-Photoroom.png" alt="Placeholder Image">
+                <p>
+                   <b>Welcome to our Conference registration! <br> 
+                    Please fill out the form to secure your spot. We look forward to seeing you!
+                    Our Conference promises to be an enriching experience, offering insights and opportunities to connect with 
+                    like-minded individuals. Don't miss out on the chance to gain valuable knowledge and engage with our expert
+                    speakers. Once you've completed the registration, you'll receive a confirmation email with all the necessary
+                    details. If you have any questions or need assistance, feel free to reach out to us. We look forward to seeing you 
+                    and making this event a memorable one!</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>  
+</html>
